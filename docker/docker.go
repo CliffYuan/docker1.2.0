@@ -9,12 +9,12 @@ import (
 	"os"
 	"strings"
 
-	"github.com/docker/docker/api"
-	"github.com/docker/docker/api/client"
-	"github.com/docker/docker/dockerversion"
-	flag "github.com/docker/docker/pkg/mflag"
-	"github.com/docker/docker/reexec"
-	"github.com/docker/docker/utils"
+	"github.com/CliffYuan/docker1.2.0/api"
+	"github.com/CliffYuan/docker1.2.0/api/client"
+	"github.com/CliffYuan/docker1.2.0/dockerversion"
+	flag "github.com/CliffYuan/docker1.2.0/pkg/mflag"
+	"github.com/CliffYuan/docker1.2.0/reexec"
+	"github.com/CliffYuan/docker1.2.0/utils"
 )
 
 const (

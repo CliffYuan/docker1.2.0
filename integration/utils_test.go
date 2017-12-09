@@ -13,14 +13,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/vendor/src/code.google.com/p/go/src/pkg/archive/tar"
+	"github.com/CliffYuan/docker1.2.0/vendor/src/code.google.com/p/go/src/pkg/archive/tar"
 
-	"github.com/docker/docker/builtins"
-	"github.com/docker/docker/daemon"
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/pkg/log"
-	"github.com/docker/docker/runconfig"
-	"github.com/docker/docker/utils"
+	"github.com/CliffYuan/docker1.2.0/builtins"
+	"github.com/CliffYuan/docker1.2.0/daemon"
+	"github.com/CliffYuan/docker1.2.0/engine"
+	"github.com/CliffYuan/docker1.2.0/pkg/log"
+	"github.com/CliffYuan/docker1.2.0/runconfig"
+	"github.com/CliffYuan/docker1.2.0/utils"
 )
 
 // This file contains utility functions for docker's unit test suite.

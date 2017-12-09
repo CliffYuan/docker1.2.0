@@ -1,8 +1,8 @@
 package daemon
 
 import (
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/nat"
+	"github.com/CliffYuan/docker1.2.0/engine"
+	"github.com/CliffYuan/docker1.2.0/nat"
 )
 
 // FIXME: move deprecated port stuff to nat to clean up the core.

@@ -10,7 +10,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/docker/docker/vendor/src/code.google.com/p/go/src/pkg/archive/tar"
+	"github.com/CliffYuan/docker1.2.0/vendor/src/code.google.com/p/go/src/pkg/archive/tar"
 )
 
 // Linux device nodes are a bit weird due to backwards compat with 16 bit device nodes.

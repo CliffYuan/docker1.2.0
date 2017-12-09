@@ -7,10 +7,10 @@ import (
 	"os"
 	"path"
 
-	"github.com/docker/docker/archive"
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/pkg/log"
-	"github.com/docker/docker/pkg/parsers"
+	"github.com/CliffYuan/docker1.2.0/archive"
+	"github.com/CliffYuan/docker1.2.0/engine"
+	"github.com/CliffYuan/docker1.2.0/pkg/log"
+	"github.com/CliffYuan/docker1.2.0/pkg/parsers"
 )
 
 // CmdImageExport exports all images with the given tag. All versions

@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/utils"
+	"github.com/CliffYuan/docker1.2.0/utils"
 )
 
 var (

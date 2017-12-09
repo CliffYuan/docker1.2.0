@@ -4,7 +4,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/docker/docker/utils"
+	"github.com/CliffYuan/docker1.2.0/utils"
 )
 
 // Test the behavior of TruncIndex, an index for querying IDs from a non-conflicting prefix.

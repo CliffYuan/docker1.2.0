@@ -7,13 +7,13 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/docker/nat"
-	"github.com/docker/docker/opts"
-	flag "github.com/docker/docker/pkg/mflag"
-	"github.com/docker/docker/pkg/parsers"
-	"github.com/docker/docker/pkg/sysinfo"
-	"github.com/docker/docker/pkg/units"
-	"github.com/docker/docker/utils"
+	"github.com/CliffYuan/docker1.2.0/nat"
+	"github.com/CliffYuan/docker1.2.0/opts"
+	flag "github.com/CliffYuan/docker1.2.0/pkg/mflag"
+	"github.com/CliffYuan/docker1.2.0/pkg/parsers"
+	"github.com/CliffYuan/docker1.2.0/pkg/sysinfo"
+	"github.com/CliffYuan/docker1.2.0/pkg/units"
+	"github.com/CliffYuan/docker1.2.0/utils"
 )
 
 var (

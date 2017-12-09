@@ -3,8 +3,8 @@ package daemon
 import (
 	"testing"
 
-	"github.com/docker/docker/runconfig"
-	"github.com/docker/docker/utils"
+	"github.com/CliffYuan/docker1.2.0/runconfig"
+	"github.com/CliffYuan/docker1.2.0/utils"
 )
 
 func TestMergeLxcConfig(t *testing.T) {

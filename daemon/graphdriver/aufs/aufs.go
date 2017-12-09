@@ -30,11 +30,11 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/docker/docker/archive"
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/pkg/log"
-	mountpk "github.com/docker/docker/pkg/mount"
-	"github.com/docker/docker/utils"
+	"github.com/CliffYuan/docker1.2.0/archive"
+	"github.com/CliffYuan/docker1.2.0/daemon/graphdriver"
+	"github.com/CliffYuan/docker1.2.0/pkg/log"
+	mountpk "github.com/CliffYuan/docker1.2.0/pkg/mount"
+	"github.com/CliffYuan/docker1.2.0/utils"
 	"github.com/docker/libcontainer/label"
 )
 

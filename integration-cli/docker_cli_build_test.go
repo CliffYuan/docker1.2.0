@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/archive"
+	"github.com/CliffYuan/docker1.2.0/archive"
 )
 
 func TestBuildCacheADD(t *testing.T) {

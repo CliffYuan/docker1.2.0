@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/runconfig"
+	"github.com/CliffYuan/docker1.2.0/engine"
+	"github.com/CliffYuan/docker1.2.0/runconfig"
 )
 
 func (daemon *Daemon) ContainerInspect(job *engine.Job) engine.Status {

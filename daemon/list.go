@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/docker/pkg/graphdb"
+	"github.com/CliffYuan/docker1.2.0/pkg/graphdb"
 
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/pkg/parsers/filters"
+	"github.com/CliffYuan/docker1.2.0/engine"
+	"github.com/CliffYuan/docker1.2.0/pkg/parsers/filters"
 )
 
 // List returns an array of all containers registered in the daemon.

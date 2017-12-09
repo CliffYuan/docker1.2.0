@@ -3,7 +3,7 @@
 package daemon
 
 import (
-	"github.com/docker/docker/daemon/graphdriver"
+	"github.com/CliffYuan/docker1.2.0/daemon/graphdriver"
 )
 
 func migrateIfAufs(driver graphdriver.Driver, root string) error {

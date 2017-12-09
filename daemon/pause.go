@@ -1,7 +1,7 @@
 package daemon
 
 import (
-	"github.com/docker/docker/engine"
+	"github.com/CliffYuan/docker1.2.0/engine"
 )
 
 func (daemon *Daemon) ContainerPause(job *engine.Job) engine.Status {

@@ -3,7 +3,7 @@ package vfs
 import (
 	"bytes"
 	"fmt"
-	"github.com/docker/docker/daemon/graphdriver"
+	"github.com/CliffYuan/docker1.2.0/daemon/graphdriver"
 	"os"
 	"os/exec"
 	"path"

@@ -146,8 +146,8 @@ var (
 			// /dev/fuse is created but not allowed.
 			// This is to allow java to work.  Because java
 			// Insists on there being a /dev/fuse
-			// https://github.com/docker/docker/issues/514
-			// https://github.com/docker/docker/issues/2393
+			// https://github.com/CliffYuan/docker1.2.0/issues/514
+			// https://github.com/CliffYuan/docker1.2.0/issues/2393
 			//
 			Path:              "/dev/fuse",
 			Type:              'c',

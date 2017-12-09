@@ -16,10 +16,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/pkg/httputils"
-	"github.com/docker/docker/pkg/log"
-	"github.com/docker/docker/pkg/tarsum"
-	"github.com/docker/docker/utils"
+	"github.com/CliffYuan/docker1.2.0/pkg/httputils"
+	"github.com/CliffYuan/docker1.2.0/pkg/log"
+	"github.com/CliffYuan/docker1.2.0/pkg/tarsum"
+	"github.com/CliffYuan/docker1.2.0/utils"
 )
 
 type Session struct {

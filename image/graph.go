@@ -1,7 +1,7 @@
 package image
 
 import (
-	"github.com/docker/docker/daemon/graphdriver"
+	"github.com/CliffYuan/docker1.2.0/daemon/graphdriver"
 )
 
 type Graph interface {

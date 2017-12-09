@@ -7,10 +7,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/pkg/jsonlog"
-	"github.com/docker/docker/pkg/log"
-	"github.com/docker/docker/utils"
+	"github.com/CliffYuan/docker1.2.0/engine"
+	"github.com/CliffYuan/docker1.2.0/pkg/jsonlog"
+	"github.com/CliffYuan/docker1.2.0/pkg/log"
+	"github.com/CliffYuan/docker1.2.0/utils"
 )
 
 func (daemon *Daemon) ContainerAttach(job *engine.Job) engine.Status {

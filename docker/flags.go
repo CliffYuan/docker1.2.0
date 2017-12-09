@@ -4,8 +4,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/docker/docker/opts"
-	flag "github.com/docker/docker/pkg/mflag"
+	"github.com/CliffYuan/docker1.2.0/opts"
+	flag "github.com/CliffYuan/docker1.2.0/pkg/mflag"
 )
 
 var (

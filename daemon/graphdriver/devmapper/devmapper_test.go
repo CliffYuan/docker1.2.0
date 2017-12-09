@@ -3,7 +3,7 @@
 package devmapper
 
 import (
-	"github.com/docker/docker/daemon/graphdriver/graphtest"
+	"github.com/CliffYuan/docker1.2.0/daemon/graphdriver/graphtest"
 	"testing"
 )
 

@@ -11,7 +11,7 @@ import (
 	"text/tabwriter"
 
 	"github.com/codegangsta/cli"
-	"github.com/docker/docker/pkg/term"
+	"github.com/CliffYuan/docker1.2.0/pkg/term"
 	"github.com/docker/libcontainer"
 	consolepkg "github.com/docker/libcontainer/console"
 	"github.com/docker/libcontainer/namespaces"

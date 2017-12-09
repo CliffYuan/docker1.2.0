@@ -3,9 +3,9 @@ package daemon
 import (
 	"net"
 
-	"github.com/docker/docker/daemon/networkdriver"
-	"github.com/docker/docker/opts"
-	flag "github.com/docker/docker/pkg/mflag"
+	"github.com/CliffYuan/docker1.2.0/daemon/networkdriver"
+	"github.com/CliffYuan/docker1.2.0/opts"
+	flag "github.com/CliffYuan/docker1.2.0/pkg/mflag"
 )
 
 const (

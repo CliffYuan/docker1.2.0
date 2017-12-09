@@ -3,7 +3,7 @@ package configuration
 import (
 	"testing"
 
-	"github.com/docker/docker/daemon/execdriver/native/template"
+	"github.com/CliffYuan/docker1.2.0/daemon/execdriver/native/template"
 	"github.com/docker/libcontainer/security/capabilities"
 )
 

@@ -5,10 +5,10 @@ import (
 	"mime"
 	"strings"
 
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/pkg/log"
-	"github.com/docker/docker/pkg/parsers"
-	"github.com/docker/docker/pkg/version"
+	"github.com/CliffYuan/docker1.2.0/engine"
+	"github.com/CliffYuan/docker1.2.0/pkg/log"
+	"github.com/CliffYuan/docker1.2.0/pkg/parsers"
+	"github.com/CliffYuan/docker1.2.0/pkg/version"
 )
 
 const (

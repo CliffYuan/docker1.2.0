@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/registry"
+	"github.com/CliffYuan/docker1.2.0/registry"
 )
 
 // FIXME: these tests have an external dependency on a staging index hosted

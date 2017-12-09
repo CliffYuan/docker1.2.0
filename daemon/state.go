@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/docker/docker/pkg/units"
+	"github.com/CliffYuan/docker1.2.0/pkg/units"
 )
 
 type State struct {

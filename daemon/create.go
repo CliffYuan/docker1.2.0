@@ -1,10 +1,10 @@
 package daemon
 
 import (
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/graph"
-	"github.com/docker/docker/pkg/parsers"
-	"github.com/docker/docker/runconfig"
+	"github.com/CliffYuan/docker1.2.0/engine"
+	"github.com/CliffYuan/docker1.2.0/graph"
+	"github.com/CliffYuan/docker1.2.0/pkg/parsers"
+	"github.com/CliffYuan/docker1.2.0/runconfig"
 )
 
 func (daemon *Daemon) ContainerCreate(job *engine.Job) engine.Status {

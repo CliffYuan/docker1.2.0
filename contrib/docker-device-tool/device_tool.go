@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/docker/docker/daemon/graphdriver/devmapper"
+	"github.com/CliffYuan/docker1.2.0/daemon/graphdriver/devmapper"
 	"os"
 	"path"
 	"sort"

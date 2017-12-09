@@ -23,15 +23,15 @@ import (
 	"github.com/docker/libcontainer/user"
 	"github.com/gorilla/mux"
 
-	"github.com/docker/docker/api"
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/pkg/listenbuffer"
-	"github.com/docker/docker/pkg/log"
-	"github.com/docker/docker/pkg/parsers"
-	"github.com/docker/docker/pkg/systemd"
-	"github.com/docker/docker/pkg/version"
-	"github.com/docker/docker/registry"
-	"github.com/docker/docker/utils"
+	"github.com/CliffYuan/docker1.2.0/api"
+	"github.com/CliffYuan/docker1.2.0/engine"
+	"github.com/CliffYuan/docker1.2.0/pkg/listenbuffer"
+	"github.com/CliffYuan/docker1.2.0/pkg/log"
+	"github.com/CliffYuan/docker1.2.0/pkg/parsers"
+	"github.com/CliffYuan/docker1.2.0/pkg/systemd"
+	"github.com/CliffYuan/docker1.2.0/pkg/version"
+	"github.com/CliffYuan/docker1.2.0/registry"
+	"github.com/CliffYuan/docker1.2.0/utils"
 )
 
 var (

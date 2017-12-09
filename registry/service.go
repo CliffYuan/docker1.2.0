@@ -1,7 +1,7 @@
 package registry
 
 import (
-	"github.com/docker/docker/engine"
+	"github.com/CliffYuan/docker1.2.0/engine"
 )
 
 // Service exposes registry capabilities in the standard Engine

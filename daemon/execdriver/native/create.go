@@ -8,9 +8,9 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"github.com/docker/docker/daemon/execdriver"
-	"github.com/docker/docker/daemon/execdriver/native/configuration"
-	"github.com/docker/docker/daemon/execdriver/native/template"
+	"github.com/CliffYuan/docker1.2.0/daemon/execdriver"
+	"github.com/CliffYuan/docker1.2.0/daemon/execdriver/native/configuration"
+	"github.com/CliffYuan/docker1.2.0/daemon/execdriver/native/template"
 	"github.com/docker/libcontainer"
 	"github.com/docker/libcontainer/apparmor"
 	"github.com/docker/libcontainer/devices"

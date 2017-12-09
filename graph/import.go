@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/docker/docker/archive"
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/utils"
+	"github.com/CliffYuan/docker1.2.0/archive"
+	"github.com/CliffYuan/docker1.2.0/engine"
+	"github.com/CliffYuan/docker1.2.0/utils"
 )
 
 func (s *TagStore) CmdImport(job *engine.Job) engine.Status {

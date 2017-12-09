@@ -16,8 +16,8 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/pkg/mount"
+	"github.com/CliffYuan/docker1.2.0/daemon/graphdriver"
+	"github.com/CliffYuan/docker1.2.0/pkg/mount"
 )
 
 func init() {

@@ -4,8 +4,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/docker/docker/daemon/networkdriver/portallocator"
-	"github.com/docker/docker/pkg/iptables"
+	"github.com/CliffYuan/docker1.2.0/daemon/networkdriver/portallocator"
+	"github.com/CliffYuan/docker1.2.0/pkg/iptables"
 )
 
 func init() {

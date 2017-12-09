@@ -15,8 +15,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/pkg/mount"
-	"github.com/docker/docker/pkg/networkfs/resolvconf"
+	"github.com/CliffYuan/docker1.2.0/pkg/mount"
+	"github.com/CliffYuan/docker1.2.0/pkg/networkfs/resolvconf"
 )
 
 // "test123" should be printed by docker run

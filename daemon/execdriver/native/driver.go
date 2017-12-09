@@ -14,8 +14,8 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/docker/docker/daemon/execdriver"
-	"github.com/docker/docker/pkg/term"
+	"github.com/CliffYuan/docker1.2.0/daemon/execdriver"
+	"github.com/CliffYuan/docker1.2.0/pkg/term"
 	"github.com/docker/libcontainer"
 	"github.com/docker/libcontainer/apparmor"
 	"github.com/docker/libcontainer/cgroups/fs"

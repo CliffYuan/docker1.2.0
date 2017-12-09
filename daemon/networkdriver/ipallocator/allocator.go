@@ -3,7 +3,7 @@ package ipallocator
 import (
 	"encoding/binary"
 	"errors"
-	"github.com/docker/docker/daemon/networkdriver"
+	"github.com/CliffYuan/docker1.2.0/daemon/networkdriver"
 	"net"
 	"sync"
 )

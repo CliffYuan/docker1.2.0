@@ -1,8 +1,8 @@
 package graph
 
 import (
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/pkg/parsers"
+	"github.com/CliffYuan/docker1.2.0/engine"
+	"github.com/CliffYuan/docker1.2.0/pkg/parsers"
 )
 
 // CmdTag assigns a new name and tag to an existing image. If the tag already exists,

@@ -6,9 +6,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/docker/docker/daemon/execdriver"
-	"github.com/docker/docker/pkg/log"
-	"github.com/docker/docker/runconfig"
+	"github.com/CliffYuan/docker1.2.0/daemon/execdriver"
+	"github.com/CliffYuan/docker1.2.0/pkg/log"
+	"github.com/CliffYuan/docker1.2.0/runconfig"
 )
 
 const defaultTimeIncrement = 100

@@ -16,10 +16,10 @@ import (
 
 	"github.com/kr/pty"
 
-	"github.com/docker/docker/daemon/execdriver"
-	"github.com/docker/docker/pkg/log"
-	"github.com/docker/docker/pkg/term"
-	"github.com/docker/docker/utils"
+	"github.com/CliffYuan/docker1.2.0/daemon/execdriver"
+	"github.com/CliffYuan/docker1.2.0/pkg/log"
+	"github.com/CliffYuan/docker1.2.0/pkg/term"
+	"github.com/CliffYuan/docker1.2.0/utils"
 	"github.com/docker/libcontainer/cgroups"
 	"github.com/docker/libcontainer/label"
 	"github.com/docker/libcontainer/mount/nodes"

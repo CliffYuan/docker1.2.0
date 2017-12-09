@@ -3,7 +3,7 @@ package daemon
 import (
 	"time"
 
-	"github.com/docker/docker/engine"
+	"github.com/CliffYuan/docker1.2.0/engine"
 )
 
 func (daemon *Daemon) ContainerWait(job *engine.Job) engine.Status {

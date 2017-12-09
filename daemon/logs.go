@@ -9,11 +9,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/docker/docker/pkg/log"
-	"github.com/docker/docker/pkg/tailfile"
+	"github.com/CliffYuan/docker1.2.0/pkg/log"
+	"github.com/CliffYuan/docker1.2.0/pkg/tailfile"
 
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/pkg/jsonlog"
+	"github.com/CliffYuan/docker1.2.0/engine"
+	"github.com/CliffYuan/docker1.2.0/pkg/jsonlog"
 )
 
 func (daemon *Daemon) ContainerLogs(job *engine.Job) engine.Status {

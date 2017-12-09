@@ -11,7 +11,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/docker/docker/utils"
+	"github.com/CliffYuan/docker1.2.0/utils"
 )
 
 // Where we store the config file

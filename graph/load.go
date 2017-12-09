@@ -7,10 +7,10 @@ import (
 	"os"
 	"path"
 
-	"github.com/docker/docker/archive"
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/pkg/log"
+	"github.com/CliffYuan/docker1.2.0/archive"
+	"github.com/CliffYuan/docker1.2.0/engine"
+	"github.com/CliffYuan/docker1.2.0/image"
+	"github.com/CliffYuan/docker1.2.0/pkg/log"
 )
 
 // Loads a set of images into the repository. This is the complementary of ImageExport.

@@ -20,17 +20,17 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/docker/docker/archive"
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/nat"
-	"github.com/docker/docker/pkg/log"
-	"github.com/docker/docker/pkg/parsers"
-	"github.com/docker/docker/pkg/symlink"
-	"github.com/docker/docker/pkg/system"
-	"github.com/docker/docker/pkg/tarsum"
-	"github.com/docker/docker/registry"
-	"github.com/docker/docker/runconfig"
-	"github.com/docker/docker/utils"
+	"github.com/CliffYuan/docker1.2.0/archive"
+	"github.com/CliffYuan/docker1.2.0/engine"
+	"github.com/CliffYuan/docker1.2.0/nat"
+	"github.com/CliffYuan/docker1.2.0/pkg/log"
+	"github.com/CliffYuan/docker1.2.0/pkg/parsers"
+	"github.com/CliffYuan/docker1.2.0/pkg/symlink"
+	"github.com/CliffYuan/docker1.2.0/pkg/system"
+	"github.com/CliffYuan/docker1.2.0/pkg/tarsum"
+	"github.com/CliffYuan/docker1.2.0/registry"
+	"github.com/CliffYuan/docker1.2.0/runconfig"
+	"github.com/CliffYuan/docker1.2.0/utils"
 )
 
 func (daemon *Daemon) CmdBuild(job *engine.Job) engine.Status {

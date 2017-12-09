@@ -16,11 +16,11 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/docker/docker/vendor/src/code.google.com/p/go/src/pkg/archive/tar"
+	"github.com/CliffYuan/docker1.2.0/vendor/src/code.google.com/p/go/src/pkg/archive/tar"
 
-	"github.com/docker/docker/pkg/log"
-	"github.com/docker/docker/pkg/system"
-	"github.com/docker/docker/utils"
+	"github.com/CliffYuan/docker1.2.0/pkg/log"
+	"github.com/CliffYuan/docker1.2.0/pkg/system"
+	"github.com/CliffYuan/docker1.2.0/utils"
 )
 
 type (

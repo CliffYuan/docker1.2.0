@@ -7,11 +7,11 @@ import (
 	"os"
 	"path"
 
-	"github.com/docker/docker/archive"
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/pkg/log"
-	"github.com/docker/docker/registry"
-	"github.com/docker/docker/utils"
+	"github.com/CliffYuan/docker1.2.0/archive"
+	"github.com/CliffYuan/docker1.2.0/engine"
+	"github.com/CliffYuan/docker1.2.0/pkg/log"
+	"github.com/CliffYuan/docker1.2.0/registry"
+	"github.com/CliffYuan/docker1.2.0/utils"
 )
 
 // Retrieve the all the images to be uploaded in the correct order

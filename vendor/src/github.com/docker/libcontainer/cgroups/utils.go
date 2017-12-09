@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/docker/pkg/mount"
+	"github.com/CliffYuan/docker1.2.0/pkg/mount"
 )
 
 // https://www.kernel.org/doc/Documentation/cgroups/cgroups.txt

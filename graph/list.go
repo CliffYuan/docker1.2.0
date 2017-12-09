@@ -6,9 +6,9 @@ import (
 	"path"
 	"strings"
 
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/pkg/parsers/filters"
+	"github.com/CliffYuan/docker1.2.0/engine"
+	"github.com/CliffYuan/docker1.2.0/image"
+	"github.com/CliffYuan/docker1.2.0/pkg/parsers/filters"
 )
 
 func (s *TagStore) CmdImages(job *engine.Job) engine.Status {

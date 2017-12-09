@@ -4,13 +4,13 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/docker/docker/dockerversion"
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/pkg/log"
-	"github.com/docker/docker/pkg/parsers/kernel"
-	"github.com/docker/docker/pkg/parsers/operatingsystem"
-	"github.com/docker/docker/registry"
-	"github.com/docker/docker/utils"
+	"github.com/CliffYuan/docker1.2.0/dockerversion"
+	"github.com/CliffYuan/docker1.2.0/engine"
+	"github.com/CliffYuan/docker1.2.0/pkg/log"
+	"github.com/CliffYuan/docker1.2.0/pkg/parsers/kernel"
+	"github.com/CliffYuan/docker1.2.0/pkg/parsers/operatingsystem"
+	"github.com/CliffYuan/docker1.2.0/registry"
+	"github.com/CliffYuan/docker1.2.0/utils"
 )
 
 func (daemon *Daemon) CmdInfo(job *engine.Job) engine.Status {

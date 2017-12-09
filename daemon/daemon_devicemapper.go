@@ -3,5 +3,5 @@
 package daemon
 
 import (
-	_ "github.com/docker/docker/daemon/graphdriver/devmapper"
+	_ "github.com/CliffYuan/docker1.2.0/daemon/graphdriver/devmapper"
 )

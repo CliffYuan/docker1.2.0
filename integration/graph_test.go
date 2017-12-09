@@ -2,12 +2,12 @@ package docker
 
 import (
 	"errors"
-	"github.com/docker/docker/archive"
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/dockerversion"
-	"github.com/docker/docker/graph"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/utils"
+	"github.com/CliffYuan/docker1.2.0/archive"
+	"github.com/CliffYuan/docker1.2.0/daemon/graphdriver"
+	"github.com/CliffYuan/docker1.2.0/dockerversion"
+	"github.com/CliffYuan/docker1.2.0/graph"
+	"github.com/CliffYuan/docker1.2.0/image"
+	"github.com/CliffYuan/docker1.2.0/utils"
 	"io"
 	"io/ioutil"
 	"os"

@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/docker/docker/utils"
+	"github.com/CliffYuan/docker1.2.0/utils"
 )
 
 // Installer is a standard interface for objects which can "install" themselves

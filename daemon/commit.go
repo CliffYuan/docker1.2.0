@@ -1,9 +1,9 @@
 package daemon
 
 import (
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/runconfig"
+	"github.com/CliffYuan/docker1.2.0/engine"
+	"github.com/CliffYuan/docker1.2.0/image"
+	"github.com/CliffYuan/docker1.2.0/runconfig"
 )
 
 func (daemon *Daemon) ContainerCommit(job *engine.Job) engine.Status {

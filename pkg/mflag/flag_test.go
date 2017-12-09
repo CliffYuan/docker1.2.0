@@ -7,7 +7,7 @@ package mflag_test
 import (
 	"bytes"
 	"fmt"
-	. "github.com/docker/docker/pkg/mflag"
+	. "github.com/CliffYuan/docker1.2.0/pkg/mflag"
 	"os"
 	"sort"
 	"strings"

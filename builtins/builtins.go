@@ -3,14 +3,14 @@ package builtins
 import (
 	"runtime"
 
-	"github.com/docker/docker/api"
-	apiserver "github.com/docker/docker/api/server"
-	"github.com/docker/docker/daemon/networkdriver/bridge"
-	"github.com/docker/docker/dockerversion"
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/events"
-	"github.com/docker/docker/pkg/parsers/kernel"
-	"github.com/docker/docker/registry"
+	"github.com/CliffYuan/docker1.2.0/api"
+	apiserver "github.com/CliffYuan/docker1.2.0/api/server"
+	"github.com/CliffYuan/docker1.2.0/daemon/networkdriver/bridge"
+	"github.com/CliffYuan/docker1.2.0/dockerversion"
+	"github.com/CliffYuan/docker1.2.0/engine"
+	"github.com/CliffYuan/docker1.2.0/events"
+	"github.com/CliffYuan/docker1.2.0/pkg/parsers/kernel"
+	"github.com/CliffYuan/docker1.2.0/registry"
 )
 
 func Register(eng *engine.Engine) error {

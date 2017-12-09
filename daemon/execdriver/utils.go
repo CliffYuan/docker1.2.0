@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/docker/docker/utils"
+	"github.com/CliffYuan/docker1.2.0/utils"
 	"github.com/docker/libcontainer/security/capabilities"
 )
 

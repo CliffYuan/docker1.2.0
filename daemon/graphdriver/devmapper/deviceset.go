@@ -18,10 +18,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/pkg/log"
-	"github.com/docker/docker/pkg/parsers"
-	"github.com/docker/docker/pkg/units"
+	"github.com/CliffYuan/docker1.2.0/daemon/graphdriver"
+	"github.com/CliffYuan/docker1.2.0/pkg/log"
+	"github.com/CliffYuan/docker1.2.0/pkg/parsers"
+	"github.com/CliffYuan/docker1.2.0/pkg/units"
 	"github.com/docker/libcontainer/label"
 )
 

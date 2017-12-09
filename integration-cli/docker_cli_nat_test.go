@@ -7,7 +7,7 @@ import (
 	"os/exec"
 	"testing"
 
-	"github.com/docker/docker/daemon"
+	"github.com/CliffYuan/docker1.2.0/daemon"
 )
 
 func TestNetworkNat(t *testing.T) {

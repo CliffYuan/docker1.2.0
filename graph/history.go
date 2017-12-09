@@ -3,8 +3,8 @@ package graph
 import (
 	"strings"
 
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/image"
+	"github.com/CliffYuan/docker1.2.0/engine"
+	"github.com/CliffYuan/docker1.2.0/image"
 )
 
 func (s *TagStore) CmdHistory(job *engine.Job) engine.Status {

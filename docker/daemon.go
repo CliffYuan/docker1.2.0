@@ -5,14 +5,14 @@ package main
 import (
 	"log"
 
-	"github.com/docker/docker/builtins"
-	"github.com/docker/docker/daemon"
-	_ "github.com/docker/docker/daemon/execdriver/lxc"
-	_ "github.com/docker/docker/daemon/execdriver/native"
-	"github.com/docker/docker/dockerversion"
-	"github.com/docker/docker/engine"
-	flag "github.com/docker/docker/pkg/mflag"
-	"github.com/docker/docker/pkg/signal"
+	"github.com/CliffYuan/docker1.2.0/builtins"
+	"github.com/CliffYuan/docker1.2.0/daemon"
+	_ "github.com/CliffYuan/docker1.2.0/daemon/execdriver/lxc"
+	_ "github.com/CliffYuan/docker1.2.0/daemon/execdriver/native"
+	"github.com/CliffYuan/docker1.2.0/dockerversion"
+	"github.com/CliffYuan/docker1.2.0/engine"
+	flag "github.com/CliffYuan/docker1.2.0/pkg/mflag"
+	"github.com/CliffYuan/docker1.2.0/pkg/signal"
 )
 
 const CanDaemon = true

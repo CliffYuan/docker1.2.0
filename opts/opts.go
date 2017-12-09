@@ -8,9 +8,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/docker/docker/api"
-	flag "github.com/docker/docker/pkg/mflag"
-	"github.com/docker/docker/pkg/parsers"
+	"github.com/CliffYuan/docker1.2.0/api"
+	flag "github.com/CliffYuan/docker1.2.0/pkg/mflag"
+	"github.com/CliffYuan/docker1.2.0/pkg/parsers"
 )
 
 func ListVar(values *[]string, names []string, usage string) {

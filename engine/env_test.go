@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/docker/docker/pkg/testutils"
+	"github.com/CliffYuan/docker1.2.0/pkg/testutils"
 )
 
 func TestEnvLenZero(t *testing.T) {

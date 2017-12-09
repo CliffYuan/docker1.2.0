@@ -9,11 +9,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/docker/docker/archive"
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/pkg/log"
-	"github.com/docker/docker/runconfig"
-	"github.com/docker/docker/utils"
+	"github.com/CliffYuan/docker1.2.0/archive"
+	"github.com/CliffYuan/docker1.2.0/daemon/graphdriver"
+	"github.com/CliffYuan/docker1.2.0/pkg/log"
+	"github.com/CliffYuan/docker1.2.0/runconfig"
+	"github.com/CliffYuan/docker1.2.0/utils"
 )
 
 // Set the max depth to the aufs default that most

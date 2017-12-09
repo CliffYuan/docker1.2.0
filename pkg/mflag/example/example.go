@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	flag "github.com/docker/docker/pkg/mflag"
+	flag "github.com/CliffYuan/docker1.2.0/pkg/mflag"
 )
 
 var (

@@ -3,9 +3,9 @@ package runconfig
 import (
 	"strings"
 
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/nat"
-	"github.com/docker/docker/utils"
+	"github.com/CliffYuan/docker1.2.0/engine"
+	"github.com/CliffYuan/docker1.2.0/nat"
+	"github.com/CliffYuan/docker1.2.0/utils"
 )
 
 type NetworkMode string

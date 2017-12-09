@@ -15,7 +15,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/docker/docker/pkg/mount"
+	"github.com/CliffYuan/docker1.2.0/pkg/mount"
 	"github.com/docker/libcontainer/system"
 )
 

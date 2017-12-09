@@ -17,13 +17,13 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/docker/docker/api"
-	"github.com/docker/docker/dockerversion"
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/pkg/log"
-	"github.com/docker/docker/pkg/term"
-	"github.com/docker/docker/registry"
-	"github.com/docker/docker/utils"
+	"github.com/CliffYuan/docker1.2.0/api"
+	"github.com/CliffYuan/docker1.2.0/dockerversion"
+	"github.com/CliffYuan/docker1.2.0/engine"
+	"github.com/CliffYuan/docker1.2.0/pkg/log"
+	"github.com/CliffYuan/docker1.2.0/pkg/term"
+	"github.com/CliffYuan/docker1.2.0/registry"
+	"github.com/CliffYuan/docker1.2.0/utils"
 )
 
 var (

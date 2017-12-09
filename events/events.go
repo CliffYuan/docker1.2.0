@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/utils"
+	"github.com/CliffYuan/docker1.2.0/engine"
+	"github.com/CliffYuan/docker1.2.0/utils"
 )
 
 const eventsLimit = 64

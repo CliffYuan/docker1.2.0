@@ -6,8 +6,8 @@ import (
 	"os"
 	"path"
 
-	"github.com/docker/docker/archive"
-	"github.com/docker/docker/pkg/mount"
+	"github.com/CliffYuan/docker1.2.0/archive"
+	"github.com/CliffYuan/docker1.2.0/pkg/mount"
 )
 
 type FsMagic uint64

@@ -14,29 +14,29 @@ import (
 
 	"github.com/docker/libcontainer/label"
 
-	"github.com/docker/docker/archive"
-	"github.com/docker/docker/daemon/execdriver"
-	"github.com/docker/docker/daemon/execdriver/execdrivers"
-	"github.com/docker/docker/daemon/execdriver/lxc"
-	"github.com/docker/docker/daemon/graphdriver"
-	_ "github.com/docker/docker/daemon/graphdriver/vfs"
-	_ "github.com/docker/docker/daemon/networkdriver/bridge"
-	"github.com/docker/docker/daemon/networkdriver/portallocator"
-	"github.com/docker/docker/dockerversion"
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/graph"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/pkg/broadcastwriter"
-	"github.com/docker/docker/pkg/graphdb"
-	"github.com/docker/docker/pkg/log"
-	"github.com/docker/docker/pkg/namesgenerator"
-	"github.com/docker/docker/pkg/networkfs/resolvconf"
-	"github.com/docker/docker/pkg/parsers"
-	"github.com/docker/docker/pkg/parsers/kernel"
-	"github.com/docker/docker/pkg/sysinfo"
-	"github.com/docker/docker/pkg/truncindex"
-	"github.com/docker/docker/runconfig"
-	"github.com/docker/docker/utils"
+	"github.com/CliffYuan/docker1.2.0/archive"
+	"github.com/CliffYuan/docker1.2.0/daemon/execdriver"
+	"github.com/CliffYuan/docker1.2.0/daemon/execdriver/execdrivers"
+	"github.com/CliffYuan/docker1.2.0/daemon/execdriver/lxc"
+	"github.com/CliffYuan/docker1.2.0/daemon/graphdriver"
+	_ "github.com/CliffYuan/docker1.2.0/daemon/graphdriver/vfs"
+	_ "github.com/CliffYuan/docker1.2.0/daemon/networkdriver/bridge"
+	"github.com/CliffYuan/docker1.2.0/daemon/networkdriver/portallocator"
+	"github.com/CliffYuan/docker1.2.0/dockerversion"
+	"github.com/CliffYuan/docker1.2.0/engine"
+	"github.com/CliffYuan/docker1.2.0/graph"
+	"github.com/CliffYuan/docker1.2.0/image"
+	"github.com/CliffYuan/docker1.2.0/pkg/broadcastwriter"
+	"github.com/CliffYuan/docker1.2.0/pkg/graphdb"
+	"github.com/CliffYuan/docker1.2.0/pkg/log"
+	"github.com/CliffYuan/docker1.2.0/pkg/namesgenerator"
+	"github.com/CliffYuan/docker1.2.0/pkg/networkfs/resolvconf"
+	"github.com/CliffYuan/docker1.2.0/pkg/parsers"
+	"github.com/CliffYuan/docker1.2.0/pkg/parsers/kernel"
+	"github.com/CliffYuan/docker1.2.0/pkg/sysinfo"
+	"github.com/CliffYuan/docker1.2.0/pkg/truncindex"
+	"github.com/CliffYuan/docker1.2.0/runconfig"
+	"github.com/CliffYuan/docker1.2.0/utils"
 )
 
 var (
@@ -1105,7 +1105,7 @@ func checkKernelAndArch() error {
 	// Unfortunately we can't test for the feature "does not cause a kernel panic"
 	// without actually causing a kernel panic, so we need this workaround until
 	// the circumstances of pre-3.8 crashes are clearer.
-	// For details see http://github.com/docker/docker/issues/407
+	// For details see http://github.com/CliffYuan/docker1.2.0/issues/407
 	if k, err := kernel.GetKernelVersion(); err != nil {
 		log.Infof("WARNING: %s", err)
 	} else {

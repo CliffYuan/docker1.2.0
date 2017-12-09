@@ -7,15 +7,15 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/docker/docker/daemon/networkdriver"
-	"github.com/docker/docker/daemon/networkdriver/ipallocator"
-	"github.com/docker/docker/daemon/networkdriver/portallocator"
-	"github.com/docker/docker/daemon/networkdriver/portmapper"
-	"github.com/docker/docker/engine"
-	"github.com/docker/docker/pkg/iptables"
-	"github.com/docker/docker/pkg/log"
-	"github.com/docker/docker/pkg/networkfs/resolvconf"
-	"github.com/docker/docker/pkg/parsers/kernel"
+	"github.com/CliffYuan/docker1.2.0/daemon/networkdriver"
+	"github.com/CliffYuan/docker1.2.0/daemon/networkdriver/ipallocator"
+	"github.com/CliffYuan/docker1.2.0/daemon/networkdriver/portallocator"
+	"github.com/CliffYuan/docker1.2.0/daemon/networkdriver/portmapper"
+	"github.com/CliffYuan/docker1.2.0/engine"
+	"github.com/CliffYuan/docker1.2.0/pkg/iptables"
+	"github.com/CliffYuan/docker1.2.0/pkg/log"
+	"github.com/CliffYuan/docker1.2.0/pkg/networkfs/resolvconf"
+	"github.com/CliffYuan/docker1.2.0/pkg/parsers/kernel"
 	"github.com/docker/libcontainer/netlink"
 )
 
@@ -158,7 +158,7 @@ func InitDriver(job *engine.Job) engine.Status {
 
 	bridgeNetwork = network
 
-	// https://github.com/docker/docker/issues/2768
+	// https://github.com/CliffYuan/docker1.2.0/issues/2768
 	job.Eng.Hack_SetGlobalVar("httpapi.bridgeIP", bridgeNetwork.IP)
 
 	for name, f := range map[string]engine.Handler{

@@ -3,9 +3,9 @@ package registry
 import (
 	"runtime"
 
-	"github.com/docker/docker/dockerversion"
-	"github.com/docker/docker/pkg/parsers/kernel"
-	"github.com/docker/docker/utils"
+	"github.com/CliffYuan/docker1.2.0/dockerversion"
+	"github.com/CliffYuan/docker1.2.0/pkg/parsers/kernel"
+	"github.com/CliffYuan/docker1.2.0/utils"
 )
 
 func HTTPRequestFactory(metaHeaders map[string][]string) *utils.HTTPRequestFactory {
